@@ -32,7 +32,9 @@ In the test we have the steps that is responsible to join the action from the fe
 
 ### To perform the tests
 ```shGo to src/test/java RunCucumberTest.java
-Run your tests and once this is done navigate to the terminal and type mvn cluecumber-report:reporting
+Run your tests and once this is done navigate to the terminal:
+
+Type mvn cluecumber-report:reporting
 
 After performing the test open the report at target/generated-report/index.html, right-click Open in Browser.
 ```

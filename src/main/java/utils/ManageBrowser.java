@@ -52,13 +52,4 @@ public class ManageBrowser {
         }
     }
 
-    public void fluentWait(long millis) {
-
-        try {
-            Thread.sleep(millis);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-
 }
